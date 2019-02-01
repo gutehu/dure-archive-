@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @dure.name %>
+</p>
+
+<p>
+  <strong>Activity:</strong>
+  <%= @dure.activity %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @dure.address %>
+</p>
+
+<p>
+  <strong>Effective:</strong>
+  <%= @dure.effective %>
+</p>
+
+<p>
+  <strong>Other:</strong>
+  <%= @dure.other %>
+</p>
+
+<%= link_to 'Edit', edit_dure_path(@dure) %> |
+<%= link_to 'Back', dures_path %>

@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  frequency_score: MyString
+  gravity_score: MyString
+  mastery_score: MyString
+  mesure_prevention_to_predict: MyString
+  existing_mesure_prevention: MyString
+  date: MyString
+  responsable: MyString
+  risk: one
+
+two:
+  name: MyString
+  frequency_score: MyString
+  gravity_score: MyString
+  mastery_score: MyString
+  mesure_prevention_to_predict: MyString
+  existing_mesure_prevention: MyString
+  date: MyString
+  responsable: MyString
+  risk: two
