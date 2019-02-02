@@ -1,4 +1,4 @@
 class Risk < ApplicationRecord
-  belongs_to :workunit
+  belongs_to :work_unit
   has_many :underrisks
 end
